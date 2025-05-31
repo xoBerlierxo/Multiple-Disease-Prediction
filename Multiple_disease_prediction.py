@@ -4,9 +4,9 @@ from streamlit_option_menu import option_menu
 import pickle
 
 # Loading the saved models 
-diabetes_model = pickle.load(open("C:/Users/somsh/Jupyter Notebooks/ML/Streamlit/Models/diabetes_model.sav", 'rb'))
-heart_model = pickle.load(open("C:/Users/somsh/Jupyter Notebooks/ML/Streamlit/Models/heart_model.sav", 'rb'))
-parkinsons_model = pickle.load(open("C:/Users/somsh/Jupyter Notebooks/ML/Streamlit/Models/parkinsons_model.pkl", 'rb'))
+diabetes_model = pickle.load(open("Models/diabetes_model.sav", 'rb'))
+heart_model = pickle.load(open("Models/heart_model.sav", 'rb'))
+parkinsons_model = pickle.load(open("Models/parkinsons_model.pkl", 'rb'))
 
 # using the sidebar to navigate
 with st.sidebar:
